@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="syle.css">
+    <link rel="shortcuticon" href="assets/icons/icon.png">
+    <title>Curso CSS</title>
+    
+</head>
+
+<body>
+    <header class="head">
+    <h1>Curso de CSS</h1> 
+    </header>
+            
+    <nav>
+        
+        <h2>INTRODUCCION A LOS TEMAS:</h2>
+        <ul>
+            <li>Order.</li>
+            <li>Align-self</li>
+            <li>Introduccion a layout gridd.</li>
+        </ul>
+    </nav>
+    <div class="informacion"> 
+    <h2>Etiqueta Order</h2>
+        <p>La propiedad <b>"Order: ;"</b> en CSS establece el orden en que se debe colocar un  elemento flex o grid. Los elementos <br>de un contenedor se ordenan por valor de orden ascendente y luego por orden de código fuente. A los elementos que no tienen un valor de orden explícito se les asigna el valor predeterminado de 0.</p>
+        <nav class="Sintaxis">
+            <b>Valor numérico incluyendo números negativos:</b>
+            order: 5;
+            order: -5;
+            
+            <b>Valores Globales:</b>
+            order: inherit;
+            order: initial;
+            order: unset;
+            </nav>
+        <h2>Puedes probar la etiqueta Order en el ejemplo de abajo:</h2>
+        <p>Por predeterminado el valor de orden de la etiqueta es "0".</p>
+    </div>
+
+    <div class="iframe">
+
+        <p align="center"><iframe src="exOrder.html" width=1000 height="450"></iframe></p>
+
+       
+    </div>
+
+    <div class="informacion">
+
+    <h2>Etiqueta Align-self</h2>
+    <p>La propiedad align-self de Flexbox nos permite sobrescribir la alineación de un elemento dentro de <br>un contenedor flex, sea la alineación por defecto del navegador o la alineación especificada para los elementos en la propiedad align-items.</p>
+    <h2>Sintaxis CSS</h2>
+    <nav class="Sintaxis">align-self: auto|stretch|center|flex-start|flex-end|baseline;</nav>
+    <h2>Codigo de prueba:</h2>
+    <p align="center"><iframe src="exAlign-Self.html" width=1000 height="450"></iframe></p>
+    </div>
+
+</body>
+</html>

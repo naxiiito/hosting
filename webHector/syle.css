@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=SUSE:wght@100..800&display=swap');
+*{
+    font-family: "SUSE", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 24px;
+}
+body {
+    background: linear-gradient(to bottom, rgba(107, 167, 239, 0.475), rgba(21, 108, 206, 0.712), rgb(33, 15, 226));
+    background-repeat: no-repeat;
+}
+
+P{
+    align-content: center;
+}
+.head, nav, .informacion {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.informacion{
+   text-align: center;
+}
+
+.Order {
+display: block;
+
+position: center;
+height: 100vh;
+border: none;
+overflow: auto;
+}
+
+iframe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0%;
+}
+.Sintaxis {
+    border: solid black 1px;
+    size: 50px;
+}
